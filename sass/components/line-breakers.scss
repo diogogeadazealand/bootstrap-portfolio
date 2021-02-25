@@ -1,0 +1,16 @@
+.line-break{
+
+    font-family: monospace;
+    font-size: 12px;
+    width: 100%;
+    overflow: hidden;
+
+    &.horizontal{
+        transform: rotate( 90deg );
+        position: absolute;
+        right: -100%;
+        top: 0px;
+        max-width: 100%;
+        transform-origin: top left;
+    }
+}

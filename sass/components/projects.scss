@@ -1,0 +1,28 @@
+.grid{
+    margin-top: 40px;
+
+    .corner {
+
+        &:first-of-type {
+            left: 0;
+        }
+        
+        &:last-of-type{
+            right: 0;
+            transform: scale(-1, 1);
+        }
+    }
+    
+    a {
+        
+        img{
+            margin-bottom: 10px;
+        }
+
+        &:hover {
+            p, h3 {
+                font-family: monospace;
+            }
+        }
+    }
+}

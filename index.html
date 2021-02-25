@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./sass/dist/index.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+
+    <nav class="position-fixed">
+        <ul class="nav_menu position-sticky d-lg-block d-sm-none">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#human"><span class="robot">Human</span></a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+        <ul class="d-flex d-lg-none mobile">
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#human"><span class="robot">Human</span></a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <img src="./assets/website-logo.png" class="mx-auto d-block logo"
+            alt="Diogo Geada's logo: D in cursive writing" />
+    </div>
+
+    <div id="projects" class="container">
+        <h3 class="text-center">Projects</h3>
+        <div class="grid">
+            <div class="row">
+                <article class="col-sm-12 col-lg-7 col-xl-6">
+                    <a href="https://servidiesel.pt" class="text-center d-block" target="_blank">
+                        <img class="img-fluid" src="./assets/projects/servidiesel.png" alt="">
+                        <div class="position-relative">
+                            <h3>Servidiesel</h3>
+                            <p>The description of this project</p>
+                            <span class="position-absolute corner">L</span>
+                            <span class="position-absolute corner">L</span>
+                        </div>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </div>
+
+    <p class="container line-break text-center">
+        LINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINE
+    </p>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div id="about_me" class="col-sm-12 col-lg-8 col-xl-7 pt-5 position-relative">
+                <h3 class="text-center"><span class="slash">Define:</span> About me</h3>
+                <p>I am <span class="slash">not a robot</span> a human who likes code (but in a platonic way!). For this
+                    reason, I am able to <span class="slash">speak</span> write in many coding languages, being
+                    javascript and php the language I am most comfortable with.</p>
+                <p>I used to be a <span class="slash">creator</span> programmer, before I quit to complete a bachelors
+                    degree as humans normaly do.</p>
+                <p>If you would like to <span class="slash">acess my database</span> know more about me, just leave me a
+                    message or email using your <span class="slash">radiowave network</span> comunication devices.</p>
+                <p class="container line-break horizontal text-center d-lg-block d-sm-none">
+                    LINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINE
+                </p>
+            </div>
+            <p class="container line-break text-center d-lg-none d-sm-block">
+                LINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINELINE
+            </p>
+            <div id="contacts" class="col-sm-12 col-lg-4 col-xl-5 mt-5">
+                <h3 class="text-center">Contacts</h3>
+                <div class="container">
+                    <ul>
+                        <li><strong>Phone:</strong> <span class="robot">unavailable</span></li>
+                        <li><strong>Email:</strong> diogocgeada@gmail.com</li>
+                        <li><strong>Linkedin:</strong> <a href="#">Diogo Geada</a></li>
+                    </ul>
+                </div>
+                <h6 class="font-weight-light text-center"><strong>Disclaimer:</strong> please use your <span class="slash">human</span>
+                    email to contact me</h6>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

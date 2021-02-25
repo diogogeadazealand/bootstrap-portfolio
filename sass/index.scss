@@ -1,0 +1,16 @@
+@import './definition';
+
+@import './components/projects';
+
+#projects {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+   
+#about_me{
+    overflow: hidden;
+}
+
+ul.side-by-side{
+    list-style-type: none;
+}

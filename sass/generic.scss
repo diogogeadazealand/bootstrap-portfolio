@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.slash, .robot{
+    position: relative;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+h3, h2{
+
+    .slash::after{
+        top: 16px;
+        height: 4px;
+    }
+
+}
+
+h3 .slash{
+    font-size: 28px;
+}
+
+.slash::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: rgb(216, 4, 4);
+    top: 10px;
+}
+
+   
+.logo{
+    max-width: 300px;
+    padding: 45px 0;
+}
+
+ul{
+    padding: 0;
+}
+    
+a{
+    color: black;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+    padding-bottom: 11.5px; /*corrects font change*/
+}
+
+nav{
+    z-index: 99;
+    .nav_menu{
+        padding-left: 15px;
+        list-style-type: none;
+    }
+    .mobile{
+         padding: 10px;
+         display: flex;
+         width: 100vw;
+         background-color: white;
+         justify-content: space-evenly;
+         z-index: 99;
+         li{
+             display: inline-block;
+             a{
+                 padding: 10px;
+             }
+         }
+     }
+}
